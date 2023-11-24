@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test')
 
-test('Inner rames', async ({page})=>{
+test('Inner frames', async ({page})=>{
 
     await page.goto('https://ui.vision/demo/webtest/frames/')
 
